@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common shared css*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-color {
+    color: #FD6E0A
+}
+
+.common-btn-css {
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: 0px;
+}
+
+/* nav related css start */
+.nav {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.logo a {
+    text-decoration: none;
+
+}
+
+.logo h2 {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.btn-1 {
+    height: 64px;
+    width: 160px;
+    padding: 18px 36px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn-1:hover {
+    background-color: transparent;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+
+/* header related css */
+.header {
+    background-color: #ffdec7;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* Bannar area css start */
+.bannar-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.bannar-text {
+    padding-left: 230px;
+    width: 50%;
+}
+
+.bannar-text h2 {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.bannar-text h1 {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.bannar-text p {
+    color:  #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+.btn-2{
+    height: 64px;
+    width: 230px;
+    padding: 18px 36px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+.btn-2:hover {
+    background-color: transparent;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+.btn-2 i{
+    margin-right: 10px;
+
+}
+.bannar-img {
+    width: 50%;
+    text-align: right;
+    padding-right: 35px;
+}
+
+.bannar-img img {
+    width: 600px;
+}
