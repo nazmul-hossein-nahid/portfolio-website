@@ -81,7 +81,7 @@ body {
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
-    height:869px;
+    height: 869px;
 }
 
 /* Bannar area css start */
@@ -112,13 +112,14 @@ body {
 }
 
 .bannar-text p {
-    color:  #757575;
+    color: #757575;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 30px;
     max-width: 600px;
 }
-.btn-2{
+
+.btn-2 {
     height: 64px;
     width: 230px;
     padding: 18px 36px;
@@ -127,15 +128,18 @@ body {
     font-weight: 700;
     margin-right: 30px;
 }
+
 .btn-2:hover {
     background-color: transparent;
     color: #FD6E0A;
     border: 1px solid #FD6E0A;
 }
-.btn-2 i{
+
+.btn-2 i {
     margin-right: 10px;
 
 }
+
 .bannar-img {
     width: 50%;
     text-align: right;
@@ -147,3 +151,50 @@ body {
 }
 
 /* main section start here */
+.about-area {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.about {
+    margin: 0 auto;
+    max-width: 1140px;
+    background-color: #ffdec7;
+    padding: 130px 160px;
+}
+
+.about-titel {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about-descreption {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.about-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.info-titel {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+}
+.info-desc{
+    color: #474747;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
