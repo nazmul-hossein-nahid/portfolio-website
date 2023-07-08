@@ -19,6 +19,22 @@ body {
     border: 0px;
 }
 
+.titel {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.descreption {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 /* nav related css start */
 .nav {
     max-width: 1140px;
@@ -163,22 +179,6 @@ body {
     padding: 130px 160px;
 }
 
-.about-titel {
-    color: #181818;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 700;
-    margin-bottom: 30px;
-}
-
-.about-descreption {
-    color: #757575;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-}
-
 .about-info {
     display: flex;
     justify-content: center;
@@ -191,10 +191,43 @@ body {
     font-size: 20px;
     font-weight: 400;
 }
-.info-desc{
+
+.info-desc {
     color: #474747;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: 30px;
+}
+
+/* what i do section css stsrt */
+
+.what-i-do {
+    margin-top: 100px;
+
+}
+
+.what {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.skills {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.skils-item {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+
+.item-desc {
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
 }
