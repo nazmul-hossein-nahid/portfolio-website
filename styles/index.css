@@ -81,6 +81,7 @@ body {
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
+    height:869px;
 }
 
 /* Bannar area css start */
@@ -144,3 +145,5 @@ body {
 .bannar-img img {
     width: 600px;
 }
+
+/* main section start here */
